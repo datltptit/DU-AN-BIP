@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #4f46e5;
+  --primary-hover: #4338ca;
+  --text-dark: #f8fafc;
+  --text-light: #94a3b8;
+  --bg-main: #09090b;
+  --bg-alt: #0f172a;
+  --bg-card: #1e293b;
+  --border-color: #334155;
+}
+
+* {
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--bg-alt);
+  color: var(--text-dark);
+}
