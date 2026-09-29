@@ -11,9 +11,9 @@
     />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/home.css" />
-    <title>TECHSTUDY</title>
+    <title>TECHSTUDY - Hệ Thống Ôn Tập Và Thi Thử Hàng Nhì Việt Nam</title>
   </head>
-  <body>
+  <body style="height: 400vh;">
     <header>
       <nav>
         <div class="logo">
@@ -58,24 +58,51 @@
         type="text"
         placeholder="Tìm kiếm đề thi hoặc môn học"
       />
-      <div id="search-buttons" class="search-results">Tất Cả Môn</div>
-      <div id="search-buttons" class="search-results">Độ Khó</div>
-      <div id="search-buttons" class="search-results-main"><a href="#">Tìm kiếm</a></div>
+      <div id="search-buttons" class="search-results-all"><button id="search-result-all">Tất Cả Môn</button></div>
+      <div id="search-buttons" class="search-results-level"><button id="search-result-level" >Độ Khó</button></div>
+      <div id="search-buttons" class="search-results-main"><button id="search-result-main">Tìm Kiếm</button></div>
     </section>
-    <section class="home-box">
-      <div class="name-box">
-        <h2>Cơ sở dữ liệu</h2>
-      </div>
-      <div class="time-and-number">
-        <p class="number-question">20 câu</p>
-        <p class="time-question">15 phút</p>
-      </div>
-      <div class="level-exam">
-        <p class="level">Trung bình</p>
-      </div>
-      <div class="watch-exam">
-        <a href="#" class="btn">Xem Đề Thi</a>
-      </div>
-    </section>
+      <section class="home-exam-container">
+        <section class="exam-box">
+          <div class="name-box">
+            <h2 class="box-text">Cơ sở dữ liệu</h2>
+          </div>
+          <div class="time-and-number">
+            <p class="number-question">20 câu</p>
+            <p class="time-question">15 phút</p>
+          </div>
+          <div class="level-watch-exam">
+            <p class="level">Trung bình</p>
+            <a href="#" class="exam-but">Xem Đề Thi</a>
+          </div>
+        </section>
+         <section class="exam-box">
+          <div class="name-box">
+            <h2 class="box-text">Lập Trình Javascript</h2>
+          </div>
+          <div class="time-and-number">
+            <p class="number-question">25 câu</p>
+            <p class="time-question">40 phút</p>
+          </div>
+          <div class="level-watch-exam">
+            <p class="level">Khó</p>
+            <a href="#" class="exam-but">Xem Đề Thi</a>
+          </div>
+        </section>
+         <section class="exam-box">
+          <div class="name-box">
+            <h2 class="box-text">Giải Tích 2</h2>
+          </div>
+          <div class="time-and-number">
+            <p class="number-question">15 câu</p>
+            <p class="time-question">25 phút</p>
+          </div>
+          <div class="level-watch-exam">
+            <p class="level">Dễ</p>
+            <a href="#" class="exam-but">Xem Đề Thi</a>
+          </div>
+        </section>
+      </section>
+  </section>
   </body>
 </html>
