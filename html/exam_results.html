@@ -1,11 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/exam_results.css" />
+    <title>Kết Quả Bài Thi</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#"><h1>TECHSTUDY</h1></a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Trang Chủ</a></li>
+          <li><a href="#">Đề Thi</a></li>
+          <li><a href="#">Kết Quả</a></li>
+          <li><a href="#">Hỗ Trợ</a></li>
+        </ul>
+        <a href="register.html" class="btn">Tài Khoản</a>
+      </nav>
+    </header>
+    <section class="exam-results">
+      <section class="point">
+        <h2 class="result-title">Kết Quả Bài Thi</h2>
+        <h1 class="point-number">8,5</h1>
+        <h3 class="max-point">/10 Điểm</h3>
+        <h3 class="number-correct">17/20 Câu Đúng</h3>
+        <p class="time-exam">Thời gian làm bài: 22 phút 14 giây</p>
+      </section>
+      <section class="exam-statistics">
+        <section class="exam-analysis">
+          <h2 class="exam-analysis-text">Phân Tích Nhanh</h2>
+          <div class="exam-analysis-correct">
+            <p class="">Đúng</p>
+            <h3 class="correct-numbers">17 Câu</h3>
+          </div>
+          <div class="exam-analysis-wrong">
+            <p class="">Sai</p>
+            <h3 class="wrong-numbers">3 Câu</h3>
+          </div>
+          <div class="exam-analysis-unanswered">
+            <p class="">Bỏ trống</p>
+            <h3 class="unanswered-numbers">0 Câu</h3>
+          </div>
+        </section>
+        <section class="exam-compare">
+          <h2 class="exam-compare-text">So sánh đáp án</h2>
+          <div class="number-question">
+            <div class="ordinal-question">Câu 1</div>
+            <div class="ordinal-question">Câu 2</div>
+            <div class="ordinal-question">Câu 3</div>
+          </div>
+          <div class="user-answer">
+            <div class="user-answer-item">A</div>
+            <div class="user-answer-item">B</div>
+            <div class="user-answer-item">C</div>
+          </div>
+          <div class="correct-answer">
+            <div class="correct-answer-item">A</div>
+            <div class="correct-answer-item">B</div>
+            <div class="correct-answer-item">D</div>
+          </div>
+          <div class="answer-comparison">
+            <div class="answer-comparison-item">Đúng</div>
+            <div class="answer-comparison-item">Đúng</div>
+            <div class="answer-comparison-item">Sai</div>
+          </div>
+        </section>
+        <section class="result-analysis-btn">
+          <button class="answer-detail">Xem chi tiết đáp án</button>
+          <button class="retake-exam">Làm lại đề thi</button>
+          <button class="home-btn">Về trang chủ</button>
+        </section>
+      </section>
+    </section>
+  </body>
 </html>

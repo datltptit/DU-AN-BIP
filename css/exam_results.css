@@ -1,0 +1,107 @@
+:root {
+  --primary-color: #4f46e5;
+  --primary-hover: #4338ca;
+  --text-dark: #f8fafc;
+  --text-light: #94a3b8;
+  --bg-main: #09090b;
+  --bg-alt: #0f172a;
+  --bg-card: #1e293b;
+  --border-color: #334155;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  background-color: var(--bg-main);
+  color: var(--text-dark);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--bg-alt);
+  color: var(--text-dark);
+}
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ff4b4b, #cc0000);
+  background-color: #da1f1f;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 15px rgba(255, 75, 75, 0.4);
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  transform: translateY(-3px) scale(1.02);
+  background: linear-gradient(135deg, #ff6666, #e60000);
+  box-shadow: 0 8px 25px rgba(255, 75, 75, 0.6);
+}
+header {
+  z-index: 10000;
+  position: sticky;
+  top: 0;
+  background-color: var(--bg-alt);
+}
+/* sửa body */
+.exam-results {
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(240, 240, 241);
+}
+/* mục điểm số */
+.point {
+  background-color: rgb(208, 234, 252);
+  border-radius: 10px;
+  padding: 20px;
+  color: black;
+}
+.result-title,
+.point-number,
+.max-point,
+.number-correct {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.result-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #261dd5;
+}
+.point-number {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.number-correct {
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #96eb95;
+  justify-content: center;
+  text-align: center;
+}
+/* mục phân tích tổng quan */
+.exam-statistics {
+  background-color: rgb(240, 240, 241);
+  border-radius: 10px;
+  padding: 20px;
+  color: black;
+}
+/* phân tích chính */
+.exam-analysis {
+  background-color: rgb(195, 195, 201);
+  border-radius: 10px;
+}
